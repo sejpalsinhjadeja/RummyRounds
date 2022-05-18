@@ -1,0 +1,162 @@
+{
+    "id": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2050,
+        "borderHeight": 1120
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c4f964ad-9f26-40f4-8879-b5be8eb813ae",
+            "label": "player",
+            "components": [],
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "38c0966c-ea2c-4e96-bdbd-afec152cde7f",
+                    "label": "playerbalance_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 30,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "New text",
+                    "align": "center",
+                    "fontFamily": "RalewayMedium",
+                    "fontSize": "30px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "226c7a5b-6027-443f-ac05-d5a550831376",
+                    "label": "playername_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -20,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "New text",
+                    "align": "center",
+                    "fontFamily": "RalewayMedium",
+                    "fontSize": "30px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "ee0ce2fe-7375-43a9-848b-0a74e8a24e94",
+                    "label": "profile_bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Profile Box"
+                    },
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "5c6e1975-6994-4a4f-820e-e5ed0c4ba5d9",
+                    "label": "status_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 44,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Waiting",
+                    "align": "center",
+                    "fontFamily": "RalewayMedium",
+                    "fontSize": "20px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "93cdd2a7-e1d8-4192-a53e-2991d6c5dd89",
+                    "label": "deller_img",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "D"
+                    },
+                    "x": -78,
+                    "y": -68
+                },
+                {
+                    "type": "Container",
+                    "id": "a2b86995-22c8-4610-b074-f08f84ccf059",
+                    "label": "playerTimer_container",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -111,
+                    "y": -46,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "578fa964-c639-43b4-abd6-b9bc28e55e8e",
+                            "label": "time_bg",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Profile Time Indicate"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d224629e-4bf8-4205-82c2-b261b6fd43af",
+                            "label": "timeextra_bg",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Profile Time idecate bottom"
+                            },
+                            "x": 3,
+                            "y": 39
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b8f95044-7d93-45be-8f06-92a642dfdf9c",
+                            "label": "timer_text",
+                            "scope": "CLASS",
+                            "components": [],
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "4",
+                            "align": "center",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ee15fed3-5e35-40f5-a5f8-7a7d556cb1a6",
+                            "label": "timerextra_text",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 3,
+                            "y": 40,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "4",
+                            "align": "center",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
+                            "color": "#000000ff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

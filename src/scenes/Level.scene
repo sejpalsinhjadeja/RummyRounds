@@ -1,0 +1,754 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 2050,
+        "borderHeight": 1120
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "43cf02b3-8ee5-428c-8a2a-44cf5a3dd38a",
+            "label": "gametable_container",
+            "components": [],
+            "x": 1025,
+            "y": 580,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4193f2e9-7f3c-4bc5-92e9-465a68df30aa",
+                    "label": "tablebg",
+                    "components": [],
+                    "texture": {
+                        "key": "tablebg"
+                    },
+                    "scaleX": 1.45,
+                    "scaleY": 1.3
+                },
+                {
+                    "type": "Image",
+                    "id": "a2f8a0a2-2205-4fee-b32b-e875f0df6ab8",
+                    "label": "table",
+                    "components": [],
+                    "texture": {
+                        "key": "Table"
+                    },
+                    "y": 30,
+                    "scaleX": 1.4,
+                    "scaleY": 1.4
+                },
+                {
+                    "type": "Container",
+                    "id": "cb4c7d51-34be-4c6b-939b-f53192d907c0",
+                    "label": "chips_container",
+                    "components": [],
+                    "x": -896,
+                    "y": -500,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1773872a-c04d-4c3c-91ab-4639f00fe387",
+                            "label": "chipsBox_chipsCont",
+                            "components": [],
+                            "texture": {
+                                "key": "ChipsBox"
+                            },
+                            "scaleY": 1.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "839baefa-bf16-4d2b-a385-982151c84cd9",
+                            "label": "chips",
+                            "components": [],
+                            "texture": {
+                                "key": "Chips"
+                            },
+                            "x": -49,
+                            "y": -1.999994834264328
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e0d97fd3-2cf1-4597-9721-0c63c6a0b84a",
+                            "label": "chips_text",
+                            "components": [],
+                            "x": -14,
+                            "originY": 0.5,
+                            "text": "2500",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "35px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "940171cf-293f-4432-874f-9f1210dea3fc",
+                    "label": "gaminfo_header_container",
+                    "components": [],
+                    "y": -500,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "594be396-14cf-4fbd-873f-be8dd6fffaba",
+                            "label": "settings_btn",
+                            "components": [],
+                            "texture": {
+                                "key": "Settings"
+                            },
+                            "x": 830,
+                            "scaleX": 1.3,
+                            "scaleY": 1.4
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7177c99b-7742-452f-8c67-b77cd5012d07",
+                            "label": "exit_btn",
+                            "components": [],
+                            "texture": {
+                                "key": "Exit"
+                            },
+                            "x": 940,
+                            "scaleX": 1.3,
+                            "scaleY": 1.3
+                        },
+                        {
+                            "type": "Container",
+                            "id": "321beae8-da47-4169-9719-569e7e204598",
+                            "label": "headerTableInfo",
+                            "components": [],
+                            "x": 25,
+                            "y": -41,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "c1443ea3-f2c4-47f5-9d0c-d771cec82830",
+                                    "label": "tableInfo_gameinfoCont",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Table Detail Box"
+                                    },
+                                    "y": 2,
+                                    "scaleX": 1.5,
+                                    "scaleY": 1.7
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "5cd5736c-074a-43dc-8f1d-3f8b48fa3f00",
+                                    "label": "tableChips_text",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Chips"
+                                    },
+                                    "x": 278.5114132172739
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "e40a2fe8-8320-4ceb-87be-157e87127f22",
+                                    "label": "tablefees_text",
+                                    "components": [],
+                                    "x": 328.5114132172739,
+                                    "y": 2,
+                                    "originY": 0.5,
+                                    "text": "2500",
+                                    "fontFamily": "RalewayMedium",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "58dfb3b3-79d9-40ee-97a2-521510fd7a74",
+                                    "label": "tableid_text",
+                                    "components": [],
+                                    "x": -272.4885867827261,
+                                    "y": 2,
+                                    "originX": 1,
+                                    "originY": 0.5,
+                                    "text": "2500",
+                                    "fontFamily": "RalewayMedium",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "539bfac1-9d7c-4a74-80af-1d62222c2805",
+                                    "label": "tabletype_text",
+                                    "components": [],
+                                    "x": -141.4885867827261,
+                                    "y": 2,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "2500",
+                                    "fontFamily": "RalewayMedium",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "1ae421fa-7cdd-41cf-9090-5dae20d43ab2",
+                                    "label": "tabledeck_text",
+                                    "components": [],
+                                    "x": -24.488586782726088,
+                                    "y": 2,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "2500",
+                                    "fontFamily": "RalewayMedium",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "a23deb08-a10a-4a17-a22d-35812bc7d264",
+                                    "label": "tableround_text",
+                                    "components": [],
+                                    "x": 103.51141321727391,
+                                    "y": 2,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "2500",
+                                    "fontFamily": "RalewayMedium",
+                                    "fontSize": "35px"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "f3831a71-75c2-4ab2-8bf5-5f5764f36a92",
+            "label": "playerHolders",
+            "components": [],
+            "x": 220,
+            "y": 240,
+            "list": [
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "76d1aa26-2c89-4de6-b9f5-81ff6055ab27",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_0",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": 730,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "fd255782-4650-4bae-960b-6d447fcff4ad",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_1",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 0,
+                    "y": 120,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "98cd8ca6-2841-477b-8eb9-77cc66a1898b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_2",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 380,
+                    "y": -24,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "c55583de-1b39-466f-9f4a-6f52d881ba2a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_3",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": -24,
+                    "visible": true,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "4836d246-4072-4fe8-9b9f-4fc9eff7d768",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_4",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1280,
+                    "y": -24,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "061a5723-ff3a-4f7e-876c-bae0c4550037",
+                    "id": "039fb00c-72a0-43ea-93c7-8d324f3088c9",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "es_5",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1620,
+                    "y": 120,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "7550879f-9a8c-44fd-96ad-3691eb49fefd",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_0",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": 500,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "bdda23e0-f183-4692-98cc-3ec619bd2530",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_1",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 6,
+                    "y": 340,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "1a6cbc4b-67ed-444d-9d7e-45be495ffd08",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_2",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 380,
+                    "y": 195,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "53faf799-c6a5-456e-ab62-ec1caa08f539",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_3",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": 195,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "12387ba4-72c1-4099-bae8-5526e009a576",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_4",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1280,
+                    "y": 195,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                    "id": "54a8050c-025a-4fa4-9929-f5544a98eaa2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "highcard_5",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1615,
+                    "y": 340,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "9f891d94-396c-4649-8fa1-8836b75f9239",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_0",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": 730,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "04b858a4-4b32-411e-9bb4-b1e2406d25a3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_1",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 0,
+                    "y": 120,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "8e298ebd-cfe5-4580-9178-3a5b56ccc352",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_2",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 380,
+                    "y": -24,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "21654ec4-87fa-4c44-b542-e8aebac89e95",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_3",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 830,
+                    "y": -24,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "e59f982c-e94a-487f-a456-9513711d1fed",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_4",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1280,
+                    "y": -24,
+                    "visible": false,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "051348c8-7de6-4162-a5cf-218d9483bcb5",
+                    "id": "85bbccdc-cb9a-491c-b553-95d203f9ba82",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "player_5",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 1610,
+                    "y": 120,
+                    "visible": false,
+                    "nestedPrefabs": []
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "6f18dfab-f6c3-42a6-af40-f6de531cdc9b",
+            "label": "tableMsg_cont",
+            "components": [],
+            "x": 1040,
+            "y": 624,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1ba77f9b-bc3c-48d2-84aa-ce4665435b17",
+                    "label": "tableMsgBg",
+                    "components": [],
+                    "texture": {
+                        "key": "msg"
+                    },
+                    "scaleX": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "0a8e5174-ae98-4cf2-b6cc-58ae839447d4",
+                    "label": "tableMsg_text",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Table msg",
+                    "fontFamily": "RalewayMedium",
+                    "fontSize": "25px"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "a23b1efb-9acc-473d-a7d9-c73e3be31d56",
+            "label": "tableCard_cont",
+            "scope": "CLASS",
+            "components": [],
+            "x": 772,
+            "y": 450,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "1658f056-d1f5-4ec2-a012-75b9a077d45a",
+                    "label": "openDeck_cont",
+                    "components": [],
+                    "x": 278,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5c795d98-14b9-49f1-b7ef-899994651c98",
+                            "label": "openDeckBg",
+                            "components": [],
+                            "texture": {
+                                "key": "Finish slot"
+                            },
+                            "scaleX": 1.6,
+                            "scaleY": 1.6
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "98211179-419d-4b6e-80b3-207a5a5b95f4",
+                            "label": "openDeckTextBg",
+                            "components": [],
+                            "y": 114,
+                            "scaleY": 0.35,
+                            "isFilled": true,
+                            "fillColor": "#1e2044",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Text",
+                            "id": "afd1a830-34f7-4426-8ab1-2229af1a56cc",
+                            "label": "openDeckText",
+                            "components": [],
+                            "y": 115,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Open Deck",
+                            "align": "center",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "20px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3d9f9325-dd05-4a82-81e3-c310d207ea3c",
+                            "label": "openDeckCards_btn",
+                            "components": [],
+                            "texture": {
+                                "key": "Open Deck"
+                            },
+                            "x": 55,
+                            "y": -35,
+                            "scaleX": 1.3,
+                            "scaleY": 1.3,
+                            "originX": 0
+                        },
+                        {
+                            "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                            "id": "fecbb975-5437-4eb4-a653-126e6dec9a9d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "openDeckCard",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 0,
+                            "y": 0,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6bd46fc1-4024-4b15-a78c-ac7d9e14ac63",
+                    "label": "closeDeck_cont",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "dad15993-7758-486b-a77a-f6219804e97b",
+                            "label": "closeDeckBg",
+                            "components": [],
+                            "texture": {
+                                "key": "Finish slot"
+                            },
+                            "scaleX": 1.6,
+                            "scaleY": 1.6
+                        },
+                        {
+                            "prefabId": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+                            "id": "cbe992ff-041d-4d39-b995-03d69d20338b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle"
+                            ],
+                            "label": "gameJoker_card",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -65,
+                            "y": 4,
+                            "angle": -90,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "125b90ba-e0ca-4c6f-a75c-cdb6c0e99d49",
+                            "label": "closeDeck_card",
+                            "components": [],
+                            "texture": {
+                                "key": "cardBack"
+                            },
+                            "scaleX": 1.5,
+                            "scaleY": 1.5
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "83fd389c-3c31-4761-a575-a4761c062a10",
+                            "label": "closeDeckTextBg",
+                            "components": [],
+                            "y": 115,
+                            "scaleY": 0.35,
+                            "isFilled": true,
+                            "fillColor": "#1e2044",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6004c9b8-3493-4055-bc0e-08959f1f26fc",
+                            "label": "closeDeckText",
+                            "components": [],
+                            "y": 115,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Open Deck",
+                            "align": "center",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "20px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "15713f94-7708-4d62-9226-8ce1e4c31b46",
+                    "label": "finishSlot_cont",
+                    "components": [],
+                    "x": 696,
+                    "y": 6,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2de5c1a4-1641-4126-9119-2bde18a3b37d",
+                            "label": "finishSlot",
+                            "components": [],
+                            "texture": {
+                                "key": "Finish slot"
+                            },
+                            "scaleX": 1.5,
+                            "scaleY": 1.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2f3ebecb-00ff-4789-899d-c8a472a30984",
+                            "label": "finishSlotText",
+                            "components": [],
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "FINISH\nSLOT",
+                            "align": "center",
+                            "fontFamily": "RalewayMedium",
+                            "fontSize": "25px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70c34b88-6f8f-4ba2-af95-9efdb8ff9fc4",
+                    "label": "userHand_cont",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 278,
+                    "y": 310,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

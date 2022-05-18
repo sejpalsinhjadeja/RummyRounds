@@ -1,0 +1,243 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/sprites/Club.png",
+                "type": "image",
+                "key": "c"
+            },
+            {
+                "url": "src/prefabs/Card.js",
+                "type": "script",
+                "key": "Card"
+            },
+            {
+                "url": "assets/sprites/cardBack.png",
+                "type": "image",
+                "key": "cardBack"
+            },
+            {
+                "url": "src/scripts/CardData.js",
+                "type": "script",
+                "key": "CardData"
+            },
+            {
+                "url": "src/scripts/CardGroup.js",
+                "type": "script",
+                "key": "CardGroup"
+            },
+            {
+                "url": "assets/sprites/Chips.png",
+                "type": "image",
+                "key": "Chips"
+            },
+            {
+                "url": "assets/sprites/ChipsBox.png",
+                "type": "image",
+                "key": "ChipsBox"
+            },
+            {
+                "url": "assets/sprites/Diamond.png",
+                "type": "image",
+                "key": "d"
+            },
+            {
+                "url": "assets/sprites/D.png",
+                "type": "image",
+                "key": "D"
+            },
+            {
+                "url": "assets/sprites/Declare Btn.png",
+                "type": "image",
+                "key": "Declare Btn"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "src/prefabs/EmptySeat.js",
+                "type": "script",
+                "key": "EmptySeat"
+            },
+            {
+                "url": "assets/sprites/Exit.png",
+                "type": "image",
+                "key": "Exit"
+            },
+            {
+                "url": "assets/sprites/Finish btn.png",
+                "type": "image",
+                "key": "Finish btn"
+            },
+            {
+                "url": "assets/sprites/Finish slot.png",
+                "type": "image",
+                "key": "Finish slot"
+            },
+            {
+                "url": "assets/sprites/frontCard.png",
+                "type": "image",
+                "key": "frontCard"
+            },
+            {
+                "url": "assets/sprites/Game Play Preview.png",
+                "type": "image",
+                "key": "Game Play Preview"
+            },
+            {
+                "url": "src/prefabs/GroupStatus.js",
+                "type": "script",
+                "key": "GroupStatus"
+            },
+            {
+                "url": "assets/sprites/Heart.png",
+                "type": "image",
+                "key": "h"
+            },
+            {
+                "url": "assets/sprites/Invalid.png",
+                "type": "image",
+                "key": "Invalid"
+            },
+            {
+                "url": "assets/sprites/Joker Card.png",
+                "type": "image",
+                "key": "Joker Card"
+            },
+            {
+                "url": "assets/sprites/Joker Symbol.png",
+                "type": "image",
+                "key": "Joker Symbol"
+            },
+            {
+                "url": "assets/sprites/MS.png",
+                "type": "image",
+                "key": "MS"
+            },
+            {
+                "url": "assets/sprites/ms Box.png",
+                "type": "image",
+                "key": "ms Box"
+            },
+            {
+                "url": "assets/sprites/msg.png",
+                "type": "image",
+                "key": "msg"
+            },
+            {
+                "url": "assets/sprites/New .png",
+                "type": "image",
+                "key": "New "
+            },
+            {
+                "url": "assets/sprites/Open Close deck box.png",
+                "type": "image",
+                "key": "Open Close deck box"
+            },
+            {
+                "url": "assets/sprites/Open Deck.png",
+                "type": "image",
+                "key": "Open Deck"
+            },
+            {
+                "url": "src/scripts/OpenDeck.js",
+                "type": "script",
+                "key": "OpenDeck"
+            },
+            {
+                "url": "assets/sprites/Player.png",
+                "type": "image",
+                "key": "Player"
+            },
+            {
+                "url": "src/prefabs/Player.js",
+                "type": "script",
+                "key": "Player_1"
+            },
+            {
+                "url": "src/scripts/PlayerManager.js",
+                "type": "script",
+                "key": "PlayerManager"
+            },
+            {
+                "url": "assets/sprites/Profile Box.png",
+                "type": "image",
+                "key": "Profile Box"
+            },
+            {
+                "url": "assets/sprites/Profile Time idecate bottom.png",
+                "type": "image",
+                "key": "Profile Time idecate bottom"
+            },
+            {
+                "url": "assets/sprites/Profile Time Indicate.png",
+                "type": "image",
+                "key": "Profile Time Indicate"
+            },
+            {
+                "url": "assets/sprites/rrlogo.png",
+                "type": "image",
+                "key": "rrlogo"
+            },
+            {
+                "url": "assets/sprites/spades.png",
+                "type": "image",
+                "key": "s"
+            },
+            {
+                "url": "assets/sprites/Settings.png",
+                "type": "image",
+                "key": "Settings"
+            },
+            {
+                "url": "src/scripts/SocketHandler.js",
+                "type": "script",
+                "key": "SocketHandler"
+            },
+            {
+                "url": "assets/sprites/Table.png",
+                "type": "image",
+                "key": "Table"
+            },
+            {
+                "url": "assets/sprites/Table Detail Box.png",
+                "type": "image",
+                "key": "Table Detail Box"
+            },
+            {
+                "url": "assets/sprites/Table Icon.png",
+                "type": "image",
+                "key": "Table Icon"
+            },
+            {
+                "url": "assets/sprites/tablebg.png",
+                "type": "image",
+                "key": "tablebg"
+            },
+            {
+                "url": "assets/sprites/Timer.png",
+                "type": "image",
+                "key": "Timer"
+            },
+            {
+                "url": "src/scripts/UserHand.js",
+                "type": "script",
+                "key": "UserHand"
+            },
+            {
+                "url": "assets/sprites/valid.png",
+                "type": "image",
+                "key": "valid"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

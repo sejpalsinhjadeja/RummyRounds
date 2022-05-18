@@ -1,0 +1,143 @@
+{
+    "id": "323516a0-0bf2-4f09-927c-9b75538b41e9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 2050,
+        "borderHeight": 1120
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5c63a583-9eb4-4bc8-a009-a7bdde1f8c1f",
+            "label": "container_1",
+            "components": [],
+            "y": -28,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "38cb9258-5162-499e-90e6-f7f1079d4b43",
+                    "label": "highlight",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "frontCard"
+                    },
+                    "scaleX": 1.05,
+                    "scaleY": 1.13,
+                    "visible": false,
+                    "tintTopLeft": "#15f300",
+                    "tintTopRight": "#15f300",
+                    "tintBottomLeft": "#15f300",
+                    "tintBottomRight": "#15f300",
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "83f7cff9-b916-44ef-b8f3-118dfbfb3202",
+                    "label": "card_bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "frontCard"
+                    },
+                    "scaleY": 1.1
+                },
+                {
+                    "type": "Image",
+                    "id": "d56c99a3-ca5a-498f-9b9a-79a69428fa50",
+                    "label": "icon_s",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "s"
+                    },
+                    "x": -34,
+                    "y": -5,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "3a0c374c-47f3-4856-b176-a5f914d998cc",
+                    "label": "icon_l",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "s"
+                    },
+                    "x": 17,
+                    "y": 40
+                },
+                {
+                    "type": "Image",
+                    "id": "eb94640f-1f7a-4060-8e62-516f017dfbe4",
+                    "label": "numberjoker",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Joker Symbol"
+                    },
+                    "x": -33,
+                    "y": 31,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "def7b0c9-3e3b-46f1-a3da-6fbbbe4604dd",
+                    "label": "gamejoker",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Joker Symbol"
+                    },
+                    "x": 20,
+                    "y": -31,
+                    "scaleX": 0.65,
+                    "scaleY": 0.65,
+                    "angle": 90,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "1a20a916-84fd-4471-b832-4dd9329cdc1e",
+                    "label": "fulljoker",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Joker Card"
+                    },
+                    "scaleY": 1.1,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "51578d59-f313-4819-8f59-fcb571e2bb00",
+                    "label": "card_number_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -35,
+                    "y": -49,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "5",
+                    "fontFamily": "ANTONIO-REGULAR_0",
+                    "fontSize": "45px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
